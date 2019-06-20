@@ -21,4 +21,28 @@ html {
     font-family: "Coda", cursive;
   }
 
+  .cat {
+      max-width: 800px;
+      margin: 0 auto;
+      position: absolute;
+      left: 40%;
+      top: 5%;
+  }
+
+  .cat__picture {
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+  }
+
+  .cat__header {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .cat__counter {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
   
