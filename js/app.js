@@ -1,5 +1,5 @@
 
-document.getElementById ("clickme").addEventListener ("click", updateCounter, false);
+document.getElementById("clickme").addEventListener("click", updateCounter, false);
 const count = 0;
     function updateCounter() {
         count++;  
