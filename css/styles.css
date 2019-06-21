@@ -21,19 +21,41 @@ html {
     font-family: "Coda", cursive;
   }
 
-  .cat {
-      max-width: 800px;
-      margin: 0 auto;
-      position: absolute;
-      left: 40%;
-      top: 5%;
+  .cats {
+      max-width: 700px;
+      margin: 30px auto;
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
   }
 
-  .cat__picture {
-    height: auto;
-    padding-bottom: 30px;
+  .cats__01 {
+    flex: 1 1;
+    padding: 3rem;
+
+  }
+
+  .cats__02 {
+    flex: 1 1;
+    padding: 3rem;
+
+  }
+
+  .cat__picture1 {
+    width: 120%;
+    margin: 0 auto;
+    padding: 2rem 3rem 0 3rem;
     position: relative;
   }
+
+  .cat__picture2 {
+    fill: orange; 
+    width: 120%;
+    margin: 0 auto;
+    padding: 2rem 3rem 0 3rem;
+    position: relative;
+  }
+
 
   .cat__header {
     font-size: 3rem;
@@ -41,8 +63,8 @@ html {
   }
 
   .cat__counter {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 1.3rem;
+    text-align: left;
   }
   
   
